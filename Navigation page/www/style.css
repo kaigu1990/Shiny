@@ -1,0 +1,271 @@
+body {
+  background: #fff;
+}
+
+#header {
+  text-align: center;
+  color: #fdfdfd;
+  text-shadow: 0 0 1px #000;
+  padding: 20px 0 80px;
+  background: #0088cc url('background.jpg');
+  border-bottom: 1px solid #ddd;
+  margin: 0 -15px;
+}
+
+#title {
+  font-size: 5em;
+  text-shadow: 0 0 5px #000;
+  margin-bottom: 30px;
+}
+
+#subtitle {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+#subsubtitle {
+  font-size: 1.3em;
+}
+
+#subsubtitle a {
+  color: #fdfdfd;
+  text-decoration: underline;
+}
+
+#mainnav {
+  margin-top: -50px;
+  margin-left: -25px;
+}
+
+#mainnav>li.active>a,
+#mainnav>li.active>a:hover,
+#mainnav>li.active>a:focus {
+  border-top: 2px solid orange;
+  border-bottom: 0;
+  font-weight: bold;
+  background: #fff;
+}
+
+#mainnav>li {
+  margin-left: 10px;
+}
+
+#mainnav>li>a {
+  background-color: #f0f0f0;
+  border: 1px solid #dddddd;
+  padding: 0 20px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.2em;
+}
+
+#mainnav>li>a:hover,
+#mainnav>li>a:focus {
+  background-color: #dddddd;
+}
+
+#mainnav>li>a i.fa {
+  margin-right: 2px;
+}
+.tab-content>.tab-pane {
+  padding-top: 40px;
+}
+
+.vis-item .vis-item-overflow {
+  overflow: visible;
+}
+
+#samplecode {
+  margin: 50px -15px 0;
+  padding: 20px 25px;
+  border-top: 1px solid #ddd;
+  background: #fcfcfc;
+}
+
+#samplecode pre {
+  font-size: 1em;
+  background: #fff;
+}
+
+@media only screen and (max-width: 1100px) {
+  #header {
+    padding: 15px 0 65px;
+  }
+  #title {
+    font-size: 4em;
+  }
+  #subtitle {
+    font-size: 2em;
+  }
+  #subsubtitle {
+    font-size: 1.2em;
+  }
+  #mainnav {
+    margin: -35px 0 0 -10px;
+  }
+  #mainnav>li {
+    margin-left: 5px;
+  }
+  #mainnav>li>a {
+    padding: 0 10px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 1.1em;
+  }
+  #samplecode pre {
+    font-size: 0.9em;
+  }
+  .sourcecode {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #header {
+    padding: 15px 0 65px;
+  }
+  #title {
+    font-size: 3.5em;
+  }
+  #subtitle {
+    font-size: 1.7em;
+  }
+  #subsubtitle {
+    font-size: 1.2em;
+  }
+  #mainnav {
+    margin: -35px -15px 0;
+  }
+  #mainnav>li {
+    margin: 0;
+    float: none;
+  }
+  #mainnav>li>a {
+    margin-right: 0;
+    padding: 0 10px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 1.1em;
+    border-radius: 0;
+    border-bottom-width: 0;
+  }
+  #mainnav>li.active>a,
+  #mainnav>li.active>a:hover,
+  #mainnav>li.active>a:focus {
+    border-top: 0 none;
+    background: #fafafa;
+  }
+  #samplecode pre {
+    font-size: 0.9em;
+  }
+  .sourcecode {
+    font-size: 1.1em;
+  }
+}
+
+#samplecode .codeformat {
+  font-size: 1.3em;
+  margin-bottom: 5px;
+}
+
+.sourcecode {
+  text-align: center;
+  font-size: 1.2em;
+  border-top: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin: 0 -15px;
+  padding-top: 10px;
+  background: #f8f8f8;
+}
+
+.sourcecode:hover {
+  background: #f0f0f0;
+}
+
+#timelineCustom {
+  font-family:  purisa, 'comic sans', cursive;
+}
+
+#timelineCustom .vis-timeline {
+  border: 2px solid purple;
+  font-size: 12pt;
+  background: #ffecea;
+}
+
+#timelineCustom .vis-item {
+  border-color: #F991A3;
+  background-color: pink;
+  font-size: 15pt;
+  color: purple;
+  box-shadow: 5px 5px 20px rgba(128,128,128, 0.5);
+}
+
+#timelineCustom .vis-item,
+#timelineCustom .vis-item.vis-line {
+  border-width: 3px;
+}
+
+#timelineCustom .vis-item.vis-dot {
+  border-width: 10px;
+  border-radius: 10px;
+}
+
+#timelineCustom .vis-item.vis-selected {
+  border-color: green;
+  background-color: lightgreen;
+}
+
+#timelineCustom .vis-background .vis-minor.vis-odd {
+  background: #ffd7d7;
+}
+
+#timelineCustom .vis-time-axis .vis-text {
+  color: purple;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#timelineCustom .vis-time-axis .vis-grid.vis-minor {
+  border-width: 2px;
+  border-color: pink;
+}
+
+#timelineCustom .vis-time-axis .vis-grid.vis-major {
+  border-width: 2px;
+  border-color: #F991A3;
+}
+
+#timelineInteractive {
+  box-shadow: 2px 2px 3px #444;
+  margin-bottom: 30px;
+}
+
+#interactiveActions .btn {
+  margin-bottom: 10px;
+  margin-right: 7px;
+  white-space: normal;
+}
+
+#timelinedata {
+  margin-bottom: 15px;
+}
+
+.optionsSection {
+  border: 1px solid #EEE;
+  border-radius: 3px;
+  background: #FCFCFC;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.optionsSection h4 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+#usage-tab {
+  padding: 10px 40px;
+  font-size: 17px;
+}
