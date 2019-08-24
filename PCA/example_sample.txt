@@ -1,0 +1,12 @@
+plus-C	plus-C-1
+plus-C	plus-C-2
+plus-C	plus-C-3
+plus-L	plus-L-1
+plus-L	plus-L-2
+plus-L	plus-L-3
+plus-M	plus-M-1
+plus-M	plus-M-2
+plus-M	plus-M-3
+plus-H	plus-H-1
+plus-H	plus-H-2
+plus-H	plus-H-3
